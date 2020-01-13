@@ -68,21 +68,21 @@ https://golang.org
 
 Нажмите на кнопку [[javascript:highlightAndClick(".next-page")]["вперед"]] или клавишу `PageDown`, чтобы продолжить.
 
-#appengine: * Go оффлайн
+#appengine: * Go оффлайн (опционально)
 #appengine:  
 #appengine: Этот тур также доступен как автономная программа, которую вы можете использовать
-#appengine: без подключения к Интернету.
-#appengine: 
-#appengine: Автономный тур быстрее, т.к. он собирается и запускает примеры кода
+#appengine: без подключения к Интернету. Он собирает и запускает примеры кода
 #appengine: на вашем компьютере.
 #appengine: 
 #appengine: Чтобы запустить тур локально, сначала
-#appengine: [[http://golang.org/dl/][скачайте и установите Go]],
-#appengine: а затем запустите тур из командной строки:
+#appengine: [[https://golang.org/doc/install][установите Go]],
+#appengine: а затем выполните в командной строке:
 #appengine: 
-#appengine: 	go tool tour
+#appengine: 	go get golang.org/x/tour
 #appengine: 
-#appengine: Запустится браузер с вашей локальной версией тура.
+#appengine: Эта команда создаст исполняемый файл `tour` в `bin` директории
+#appengine: [[https://golang.org/doc/code.html#Workspaces][рабочего пространства]]. После запуска команды `tour`,
+#appengine: откроется браузер с вашей локальной версией тура.
 #appengine: 
 #appengine: Или, конечно, вы можете продолжить проходить тур на этом сайте.
 
